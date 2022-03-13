@@ -2,7 +2,7 @@
     <img width="15%" src="/website/images/MY-LOGO-black.png">
 </p>
 
-# Landing Page ==> Udacity Project
+# Weather Journal app ==> Udacity Project
 
 simple weather app created with node.js and express.js
 
