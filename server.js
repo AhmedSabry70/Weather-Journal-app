@@ -6,6 +6,7 @@ projectData = {};
 const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
+require('dotenv').config()
 //const logger =require("morgan");
 // Start up an instance of app
 const app = express()
@@ -22,7 +23,7 @@ app.use(express.static('website'));
 
 
 // Setup Server
-const port = 8000;
+const port = process.env.PORT || 5000;
 
 const server = app.listen(port, () => {
   console.log(`that server http://localhost:${port}
